@@ -72,7 +72,10 @@ router.get('/greetings', function(req, res){
 router.get('/login', function(req, res){
 	res.render('login');
 });
-
+// Test
+router.get('/test', function(req, res){
+	res.render('test');
+});
 // Register User
 router.post('/register', function(req, res){
 	var name = req.body.name;
