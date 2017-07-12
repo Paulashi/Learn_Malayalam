@@ -72,7 +72,7 @@ router.get('/greetings', function(req, res){
 router.get('/login', function(req, res){
 	res.render('login');
 });
-// Register
+// Test
 router.get('/test', function(req, res){
 	res.render('test');
 // Register User
